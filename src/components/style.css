@@ -1,0 +1,78 @@
+.logo {
+width: 144px;
+height: 44px;
+margin-left: 31px;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+
+.titulo-amarelo {  
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+color: #FFDD36;
+margin-left: 14%;
+margin-top: 100px;
+width: 476px;
+height: 86px;
+}
+
+.span-bold {
+    font-weight: bold;
+}
+
+.retangulo {
+width: 420px;
+height: 549px;
+background: #FFDD36;
+border-radius: 15px;
+margin-top: 100px;
+}
+
+.titulo-form {
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #101D62;
+text-transform: uppercase;
+}
+
+.banner {
+background: url("./assets/fundo-ebook-lp.png");
+height: 800px;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.section-one {
+
+    width: 60%;
+}
+
+.section-two {
+
+    width: 40%;
+}
+
+.paragrafo {
+margin-top: 5%;
+font-family: Rubik;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+text-align: justify;
+margin-left: 15%;
+margin-right: 15%;
+
+}
