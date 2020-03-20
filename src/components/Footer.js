@@ -11,14 +11,10 @@ function Footer() {
 
     return (
 
-        <div className="">
-            <div className="rodape">
-                <a href="https://www.linkedin.com/company/consultoria-pensando-digital">            <img src={Linked} alt="Linkedin" /> </a>
-                <a href="https://www.facebook.com/consultoriapensandodigital">              <img src={Face} alt="Facebook" /></a>
-                <a href="https://www.instagram.com/pensando_digital/">                <img src={Insta} alt="Instagram" /></a>
-
-
-            </div>
+        <div className="rodape">
+            <a href="https://www.linkedin.com/company/consultoria-pensando-digital">            <img src={Linked} alt="Linkedin" /> </a>
+            <a href="https://www.facebook.com/consultoriapensandodigital">              <img src={Face} alt="Facebook" /></a>
+            <a href="https://www.instagram.com/pensando_digital/">                <img src={Insta} alt="Instagram" /></a>
         </div>
     )
 }

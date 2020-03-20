@@ -133,9 +133,10 @@ margin-right: 15%;
 
 .rodape {
 
-    margin-right: 10%;
+    margin-right: 15%;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+    text-align: right;
 }
 
 
@@ -165,6 +166,7 @@ justify-content: center;
     }
 
     .rodape {
+        text-align: right;
         margin-right: 0;
         margin-top: 0.5%;
         margin-bottom: 0.5%;
@@ -188,6 +190,8 @@ justify-content: center;
         font-size: 30px;
         line-height: 30px;
         color: #FFDD36;
+        margin: auto;
+
         margin-top: 60px;
         margin-bottom: 60px;
         width: 8em;
@@ -195,15 +199,15 @@ justify-content: center;
         }
 
         .paragrafo {
-            display: initial;
             margin-top: 5%;
-           text-align: justify;
             font-size: 24px;
             line-height: 28px;
             color: #FFFFFF;
             text-align: justify;
-            margin-left: 0%;
-            margin-right: 15%;
+            margin: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+            
             }
 
         input {
