@@ -23,28 +23,83 @@ height: 86px;
     font-weight: bold;
 }
 
+
+.section-icon {
+    width: 33%;
+}
+.banner {
+background: url("./assets/fundo-ebook-lp.png");
+height: 800px;
+}
+
+.icon-title {
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFDD36;
+}
+
+/* Formulario */
+.label-form {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    margin-left: 90px;
+    
+    color: #101D62;}
 .retangulo {
-width: 420px;
+    padding-top: 50px;
+max-width: 420px;
 height: 549px;
 background: #FFDD36;
 border-radius: 15px;
 margin-top: 100px;
+margin-left: 100px;
+}
+
+form {
+    margin-top: 80px; 
 }
 
 .titulo-form {
-font-family: Rubik;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-color: #101D62;
-text-transform: uppercase;
+    text-transform: uppercase;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: px;
+    text-align: center;
+    color: #101D62;
+}
+input {
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 12px;
+    margin-bottom: 4%;
+
 }
 
-.banner {
-background: url("./assets/fundo-ebook-lp.png");
-height: 800px;
+
+
+button {
+    color: white;
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+    height: 60px;
+    background: #101D62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding-left: 4em;  
+padding-right: 4em;  
+margin-top: 20px;
 
 }
 
@@ -54,12 +109,10 @@ height: 800px;
 }
 
 .section-one {
-
     width: 60%;
 }
 
 .section-two {
-
     width: 40%;
 }
 
@@ -74,5 +127,12 @@ color: #FFFFFF;
 text-align: justify;
 margin-left: 15%;
 margin-right: 15%;
+}
 
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
