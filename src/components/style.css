@@ -165,6 +165,8 @@ margin-right: 15%;
     
     .section-two {
         width: 100%;
+        display: flex;
+justify-content: center;
     }
 
     .rodape {
@@ -176,7 +178,8 @@ margin-right: 15%;
 
     .retangulo {
 
-    margin-left: 130px;
+    margin-left: 0px;
+    justify-self: center;
     }
     
         }
