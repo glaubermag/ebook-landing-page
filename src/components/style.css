@@ -149,8 +149,8 @@ margin-right: 15%;
         display: flex;
         margin-bottom: 30px;
         text-align: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
 
     }
     .container {
@@ -202,7 +202,7 @@ margin-right: 15%;
         font-family: Rubik;
         font-style: normal;
         font-weight: bold;
-        font-size: 46px;
+        font-size: 40px;
         line-height: 50px;
         color: #FFDD36;
         margin: auto;
@@ -218,7 +218,7 @@ margin-right: 15%;
             line-height: 25px;
             font-weight: 300;
             color: #FFFFFF;
-            text-align: justify;
+            text-align: left;
             margin: auto;
             margin-left: 5%;
             margin-right: 5%;
@@ -229,7 +229,7 @@ margin-right: 15%;
         input {
             border-radius: 10px;
             padding: 20px;
-            width: 180px;
+            width: 220px;
             margin-bottom: 4%;
         }
 
@@ -240,8 +240,8 @@ margin-right: 15%;
             background: #101D62;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
-            padding-left: 3em;  
-            padding-right: 3em;  
+            padding-left: 4em;  
+            padding-right: 4em;  
             margin-top: 20px;
             
             }
