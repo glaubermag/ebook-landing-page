@@ -17,14 +17,14 @@ function Banner() {
 
                     <p className="paragrafo"> Nesse E-book vamos compartilhar técnicas vencedoras que ajudaram <span className="span-bold"> GRANDES </span> empresários a passarem pelas mais duras crises!</p>
                     <p className="paragrafo">  <span className="span-bold">Baixe esse material e entenda: </span></p>
-                    <div className="container">
+                    <div className="container-icons">
                         <div className="section-icon">
                             <img src={Pessoa} alt="" />
                             <p className="icon-title"> As medidas tomadas pelo governo</p>
                         </div>
                         <div className="section-icon">
                             <img src={Money} alt="" />
-                            <p className="icon-title"> As medidas tomadas pelo governo</p>
+                            <p className="icon-title"> Como superar essa crise</p>
                         </div>
                         <div className="section-icon">
                             <img src={Joia} alt="" />
@@ -40,7 +40,7 @@ function Banner() {
                     <div className="retangulo">
                         <h1 className="titulo-form"> Quero proteger meu negócio!</h1>
 
-                        <form method="POST" action="URL do seu time">
+                        <form method="POST" action="https://smtl.gama.academy/leads/4a6b6151-5ffc-11ea-92b8-cb0262e26cca">
                             <p className="label-form"> Nome completo: </p>
                             <input
                                 name="name"
@@ -57,7 +57,6 @@ function Banner() {
                                 required
                             />
                             <input name="redirectTo" type="hidden" value="https://gama.academy" />
-                            <input name="debugMode" type="hidden" value="true" />
                             <button type="submit" name="meuEbook">QUERO MEU E-BOOK!</button>
 
                         </form>
