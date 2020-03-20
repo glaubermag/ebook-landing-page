@@ -162,7 +162,7 @@ margin-right: 15%;
     .section-two {
         width: 100%;
         display: flex;
-justify-content: center;
+        justify-content: center;
     }
 
     .rodape {
@@ -193,8 +193,8 @@ justify-content: center;
         margin: auto;
 
         margin-top: 60px;
-        margin-bottom: 60px;
-        width: 8em;
+        margin-bottom: 20px;
+        width: 14em;
         height: 3em;
         }
 
