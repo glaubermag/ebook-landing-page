@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Sucesso from './Sucesso';
-import * as serviceWorker from './serviceWorker';
+
+import * as serviceWorker from './serviceWorker'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
 
 ReactDOM.render(
 
     <BrowserRouter>
         <Switch>
             <Route path="/" exact={true} component={App} />
-            <Route path="./sucesso" component={Sucesso} />
+            <Route path="/sucesso" component={Sucesso} />
         </Switch>
     </ BrowserRouter>
     , document.getElementById('root'));
