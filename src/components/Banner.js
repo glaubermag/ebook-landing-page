@@ -3,6 +3,7 @@ import './style.css';
 import Pessoa from './assets/pessoas.png'; // Tell webpack this JS file uses this image
 import Money from './assets/money.png'; // Tell webpack this JS file uses this image
 import Joia from './assets/joia.png'; // Tell webpack this JS file uses this image
+import { Link } from 'react-router-dom'
 
 
 
@@ -67,6 +68,7 @@ function Banner() {
                 <div className="section-two">
                     <div className="retangulo">
                         <h1 className="titulo-form"> Quero proteger meu negócio!</h1>
+                        <Link to="/sucesso">Ir para a página sobre \o/</Link>
 
                         <form method="POST" action="https://smtl.gama.academy/leads/4a6b6151-5ffc-11ea-92b8-cb0262e26cca">
                             <p className="label-form"> Nome completo: </p>
