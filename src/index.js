@@ -11,7 +11,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route path="/" exact={true} component={App} />
-            <Route path="/sucesso" component={Sucesso} />
+            <Route path="./sucesso" component={Sucesso} />
         </Switch>
     </ BrowserRouter>
     , document.getElementById('root'));
