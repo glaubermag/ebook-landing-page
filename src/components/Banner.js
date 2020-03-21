@@ -37,7 +37,7 @@ function Banner() {
                                     title="Digite um email válido"
                                     required
                                 />
-                                <input name="redirectTo" type="hidden" value="https://pensandodigital.netlify.com/sucesso" />
+                                <input name="redirectTo" type="hidden" value="https://pensandodigital.netlify.com/#/sucesso" />
                                 <button type="submit" name="meuEbook">QUERO MEU E-BOOK!</button>
 
                             </form>
@@ -84,6 +84,7 @@ function Banner() {
                                 required
                             />
 
+                            <input name="redirectTo" type="hidden" value="https://pensandodigital.netlify.com/#/sucesso" />
 
                             <button type="submit" name="meuEbook" >QUERO MEU E-BOOK!</button>
                         </form>
