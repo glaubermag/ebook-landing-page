@@ -5,17 +5,14 @@ import App from './App';
 import Sucesso from './Sucesso';
 
 import * as serviceWorker from './serviceWorker'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 
 ReactDOM.render(
-
-    <BrowserRouter>
-        <Switch>
-            <Route path="/" exact={true} component={App} />
-            <Route path="/sucesso" exact={true} component={Sucesso} />
-        </Switch>
-    </ BrowserRouter>
+    <Switch>
+        <Route path="/" exact={true} component={App} />
+        <Route path="/sucesso" exact={true} component={Sucesso} />
+    </Switch>
     , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
