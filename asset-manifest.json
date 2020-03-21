@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c32a964.chunk.css",
+    "main.js": "/static/js/main.84549e46.chunk.js",
+    "main.js.map": "/static/js/main.84549e46.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8dade394.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8dade394.js.map",
+    "static/js/2.4b78de69.chunk.js": "/static/js/2.4b78de69.chunk.js",
+    "static/js/2.4b78de69.chunk.js.map": "/static/js/2.4b78de69.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c4fc9312e6f9cd7cdcb42ae7e746a342.js": "/precache-manifest.c4fc9312e6f9cd7cdcb42ae7e746a342.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0c32a964.chunk.css.map": "/static/css/main.0c32a964.chunk.css.map",
+    "static/js/2.4b78de69.chunk.js.LICENSE.txt": "/static/js/2.4b78de69.chunk.js.LICENSE.txt",
+    "static/media/face-amarelo.svg": "/static/media/face-amarelo.c2fe3e17.svg",
+    "static/media/style.css": "/static/media/fundo-ebook-lp.ac585401.png",
+    "static/media/insta-amarelo.svg": "/static/media/insta-amarelo.c5b0e423.svg",
+    "static/media/joia.png": "/static/media/joia.fc7f636b.png",
+    "static/media/linkedin-amarelo.svg": "/static/media/linkedin-amarelo.77e1f854.svg",
+    "static/media/logo-pensando.1d3b9e34.svg": "/static/media/logo-pensando.1d3b9e34.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dade394.js",
+    "static/js/2.4b78de69.chunk.js",
+    "static/css/main.0c32a964.chunk.css",
+    "static/js/main.84549e46.chunk.js"
+  ]
+}
